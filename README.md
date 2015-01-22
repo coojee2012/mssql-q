@@ -1,5 +1,6 @@
 # mssql-q
  A promise realization for mssql.
+ 
 **Extra features:**
 
 ## Installation
@@ -16,21 +17,21 @@ var config = {
     password: '...',
     server: 'localhost', // You can use 'localhost\\instance' to connect to named instance
     database: '...',
-    
     options: {
         encrypt: true // Use this if you're on Windows Azure
     }
 }
 
 var sql=new qmssql(config);
+
 sql.DataQuery("SELECT 1 AS one").then(function(data){
-//do sth
+        //do sth
 },function(err){
-//do err
+        //do err
 }
 );
 
-
+```
 
 
 
