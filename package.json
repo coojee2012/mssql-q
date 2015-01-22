@@ -1,0 +1,16 @@
+{
+  "name": "mssql-q",
+  "version": "0.0.1",
+  "description": "A promise realization for mssql.",
+  "main": "mssqlQ.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mssql",
+    "q",
+    "mssqlq"
+  ],
+  "author": "coojee.lin",
+  "license": "MIT"
+}
