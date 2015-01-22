@@ -1,16 +1,28 @@
 {
-  "name": "mssql-q",
-  "version": "0.0.1",
-  "description": "A promise realization for mssql.",
-  "main": "mssqlQ.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "mssql",
-    "q",
-    "mssqlq"
-  ],
-  "author": "coojee.lin",
-  "license": "MIT"
+    "name": "mssql-q",
+    "version": "1.0.0",
+    "description": "A promise realization for mssql.",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coojee2012/mssql-q.git"
+    },
+    "keywords": [
+        "mssql",
+        "q",
+        "mssqlq"
+    ],
+    "author": {
+        "name": "Coojee Lin",
+        "email": "11366846@qq.com"
+    },
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "q":">=1.1.0",
+        "mssql":">=1.3.0"
+    },
+    "license": "MIT"
 }
